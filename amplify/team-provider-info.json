@@ -1,20 +1,20 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-quasaramplifyapp-dev-00105-authRole",
-            "UnauthRoleArn": "arn:aws:iam::781642778795:role/amplify-quasaramplifyapp-dev-00105-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::781642778795:role/amplify-quasaramplifyapp-dev-00105-authRole",
+            "AuthRoleName": "amplify-quasaramplifyapp-dev-25058-authRole",
+            "UnauthRoleArn": "arn:aws:iam::781642778795:role/amplify-quasaramplifyapp-dev-25058-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::781642778795:role/amplify-quasaramplifyapp-dev-25058-authRole",
             "Region": "us-east-2",
-            "DeploymentBucketName": "amplify-quasaramplifyapp-dev-00105-deployment",
-            "UnauthRoleName": "amplify-quasaramplifyapp-dev-00105-unauthRole",
-            "StackName": "amplify-quasaramplifyapp-dev-00105",
-            "StackId": "arn:aws:cloudformation:us-east-2:781642778795:stack/amplify-quasaramplifyapp-dev-00105/509db210-c3f4-11ea-8644-0a22cca2ed82",
-            "AmplifyAppId": "d2qt1996l7ddcy"
+            "DeploymentBucketName": "amplify-quasaramplifyapp-dev-25058-deployment",
+            "UnauthRoleName": "amplify-quasaramplifyapp-dev-25058-unauthRole",
+            "StackName": "amplify-quasaramplifyapp-dev-25058",
+            "StackId": "arn:aws:cloudformation:us-east-2:781642778795:stack/amplify-quasaramplifyapp-dev-25058/0c0642d0-c40c-11ea-91bb-066dd16eed5a",
+            "AmplifyAppId": "d31vsr1lh68xu4"
         },
         "categories": {
             "hosting": {
                 "amplifyhosting": {
-                    "appId": "d2qt1996l7ddcy",
+                    "appId": "d31vsr1lh68xu4",
                     "type": "cicd"
                 }
             }
