@@ -1,27 +1,33 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
 
         <q-toolbar-title>
           Quasar App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div class="gt-sm">
+          <q-btn flat rounded class="q-mr-xs" label="Courses"></q-btn>
+          <q-btn rounded outline class="q-mr-xs" label="Sign In"></q-btn>
+          <q-btn rounded outline label="Sign Up"></q-btn>
+          Quasar v{{ $q.version }}
+        </div>
+        <div class="lt-md">
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu2"
+          aria-label="Menu2"
+          @click="leftDrawerOpen = !leftDrawerOpen"
+        />
+        </div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
       content-class="bg-grey-1"
     >
@@ -30,7 +36,7 @@
           header
           class="text-grey-8"
         >
-          Essential Links
+          Annuity Management Services
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -60,6 +66,18 @@ export default {
     return {
       leftDrawerOpen: false,
       essentialLinks: [
+        {
+          title: 'Sign Up',
+          caption: 'sin up for AMS',
+          icon: 'school',
+          link: '/signup'
+        },
+        {
+          title: 'Sign In',
+          caption: 'sin in to AMS',
+          icon: 'school',
+          link: '/signin'
+        },
         {
           title: 'Docs',
           caption: 'quasar.dev',
